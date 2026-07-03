@@ -11,7 +11,10 @@ class AudioVisualizer(QWidget):
         self._buffer = np.zeros(history_size, dtype=np.float32)
         self._write_pos = 0
         self.setMinimumHeight(120)
-        self.setBackgroundRole(QWidget().palette().base().color())
+        self.setAutoFillBackground(True)
+        palette = self.palette()
+        palette.setColor(self.backgroundRole(), QColor(30, 30, 30))
+        self.setPalette(palette)
 
         # Update at 30 FPS
         self._timer = QTimer(self)
