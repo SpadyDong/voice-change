@@ -1,0 +1,27 @@
+# Core GUI
+PyQt6>=6.6.0
+
+# Audio I/O and processing
+sounddevice>=0.4.6
+librosa>=0.10.1
+numpy>=1.24.0
+scipy>=1.11.0
+
+# AI Inference
+# Note: Install PyTorch with CUDA manually via:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+torch>=2.1.0
+torchaudio>=2.1.0
+
+# Configuration and utilities
+pydantic>=2.5.0
+
+# Optional: GPU monitoring
+pynvml>=11.5.0
+
+# Testing
+pytest>=7.4.0
+pytest-qt>=4.2.0
+
+# Packaging
+pyinstaller>=6.3.0

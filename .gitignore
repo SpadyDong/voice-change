@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# PyInstaller
+*.spec
+
+# Unit test / coverage reports
+.pytest_cache/
+
+# Environments
+venv/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Model weights (large binaries)
+models/rvc/*
+models/hubert/*
+!models/rvc/.gitkeep
+!models/hubert/.gitkeep
+
+# User config
+config.json
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
