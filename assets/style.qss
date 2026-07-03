@@ -7,7 +7,7 @@ QMainWindow {
 QWidget {
     background-color: #2b2b2b;
     color: #eeeeee;
-    font-family: "Microsoft YaHei", "PingFang SC", sans-serif;
+    font-family: "Noto Sans CJK SC", "WenQuanYi Micro Hei", "Microsoft YaHei", "PingFang SC", sans-serif;
     font-size: 13px;
 }
 
